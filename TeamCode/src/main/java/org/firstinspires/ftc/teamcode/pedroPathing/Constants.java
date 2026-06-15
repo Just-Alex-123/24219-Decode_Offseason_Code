@@ -21,10 +21,10 @@ public class Constants {
                 c.frontRightName.set("rf");
                 c.backRightName.set("rb");
 
-                c.leftFrontDirection.set(DcMotorSimple.Direction.REVERSE);
-                c.leftRearDirection.set(DcMotorSimple.Direction.REVERSE);
-                c.rightFrontDirection.set(DcMotorSimple.Direction.FORWARD);
-                c.rightRearDirection.set(DcMotorSimple.Direction.FORWARD);
+                c.frontLeftDirection.set(DcMotorSimple.Direction.REVERSE);
+                c.backLeftDirection.set(DcMotorSimple.Direction.REVERSE);
+                c.frontRightDirection.set(DcMotorSimple.Direction.FORWARD);
+                c.backRightDirection.set(DcMotorSimple.Direction.FORWARD);
 
                 c.manualBrakeMode.set(true);
             }
